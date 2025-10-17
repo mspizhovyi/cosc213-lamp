@@ -1,4 +1,4 @@
-# Lab 4 — PHP Expressions and Control Flow
+# Lab 6 — PHP Expressions and Control Flow
 
 This lab explores PHP **expressions**, **branching**, **loops**, simple **form handling**, and a small multi-view **“Student Toolkit”** page.
 
@@ -59,7 +59,7 @@ Result: Fail/NoScore
 ### 02_branching.php
 How to run (via web server):
 php -S localhost:8000
-# visit: http://localhost:8000/02_branching.php?role=editor&day=Sun&code=404
+***visit: http://localhost:8000/02_branching.php?role=editor&day=Sun&code=404**
 
 Example Output:
 Welcome, editor
@@ -89,7 +89,7 @@ Buzz
 ### 04_grade_form/index.php
 How to run:
 php -S localhost:8000
-# visit: http://localhost:8000/04_grade_form/?score=95
+**visit: http://localhost:8000/04_grade_form/?score=95**
 
 Examples:
 ?score=95  -> "Your grade is A."
