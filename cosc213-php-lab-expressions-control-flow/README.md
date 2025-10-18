@@ -8,6 +8,7 @@ This lab explores PHP **expressions**, **branching**, **loops**, simple **form h
 
 ### Prerequisites
 - PHP 8+ installed (`php -v` to verify)
+- Then run in a project dir php -S localhost:port_number
 
 ### Project Structure
 lab4/
