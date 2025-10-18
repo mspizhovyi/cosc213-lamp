@@ -25,7 +25,7 @@ Then open in your browser:
 
 ---
 
-## File Descriptions
+## Description of the work has been done in each file. 
 
 ### 01_expressions.php
 Demonstrates arithmetic, precedence, string interpolation vs concatenation, logical operators, ternary, and null-coalescing.  
