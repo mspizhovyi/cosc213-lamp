@@ -1,4 +1,4 @@
-# Lab 4 — PHP Expressions and Control Flow
+# Lab 6 — PHP Expressions and Control Flow
 
 This lab demonstrates PHP fundamentals: **expressions, branching, loops, form handling, and a simple toolkit web page**.  
 It highlights both **CLI execution** and **browser-based interaction**.
