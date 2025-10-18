@@ -15,6 +15,12 @@ echo "sum=$sum prod=$prod a=$a $break";
 echo 2 + 3 * 4, $break;         
 echo (2 + 3) * 4, $break;       
 
+// Experimented
+// echo "5cats" + 1;   // 6
+// echo "10dogs" * 2;  // 20
+// echo "cats5" + 1;   // 1 (because "cats" at the start = no number, so it's 0 + 1)
+// echo "3.14pi" + 1;  // 4.14 (decimal works too)
+
 // 3) String concatenation vs interpolation
 $name = "Ada";
 echo "Hello $name$break";         
@@ -26,9 +32,9 @@ if ($age >= 19 && $hasId) echo "Entry allowed$break";
 
 // 5) Ternary & null-coalescing
 if (php_sapi_name() === 'cli') {
-    $score = $argv[1] ?? null;   // CLI arg
+    $score = $argv[1] ?? null;   
 } else {
-    $score = $_GET['score'] ?? null; // Browser param
+    $score = $_GET['score'] ?? null; 
 }
 
 $label = ($score !== null && $score >= 50) ? 'Pass' : 'Fail/NoScore';

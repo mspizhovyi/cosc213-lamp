@@ -102,7 +102,7 @@ Examples:
 ### 05_toolkit/index.php
 How to run:
 php -S localhost:8000
-# visit: http://localhost:8000/05_toolkit/
+**visit: http://localhost:8000/05_toolkit/**
 
 Views:
 - ?view=times  -> Shows current time + next 5 minutes.
