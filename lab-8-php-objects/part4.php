@@ -1,6 +1,6 @@
 <?php
 
-class Book4 {
+class Book {
     public $title;
     public $author;
     private $price;
@@ -23,13 +23,13 @@ class Book4 {
 }
 
 echo "<h3>Part 4: Constants and Static</h3>";
-$ba = new Book4("Book A", "Author A");
-$bb = new Book4("Book B", "Author B");
-$bc = new Book4("Book C", "Author C");
+$ba = new Book("Book A", "Author A");
+$bb = new Book("Book B", "Author B");
+$bc = new Book("Book C", "Author C");
 
 echo $ba->getDetails() . "<br>";
 echo $bb->getDetails() . "<br>";
 echo $bc->getDetails() . "<br>";
-echo "Books created: " . Book4::getCount() . "<br><br>";
+echo "Books created: " . Book::getCount() . "<br><br>";
 
 ?>
