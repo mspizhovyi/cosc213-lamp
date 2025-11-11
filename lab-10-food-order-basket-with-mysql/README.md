@@ -13,4 +13,3 @@ I tested all actions:
 - Simulated checkout  
 - Data persisting it tables correctly
 
-Everything worked as expected — totals updated correctly and sessions stored data properly between pages.
