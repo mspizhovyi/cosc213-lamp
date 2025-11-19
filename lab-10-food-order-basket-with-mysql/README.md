@@ -1,4 +1,4 @@
-# 🍕 Lab 9 — Food Ordering Basket in PHP
+# 🍕 Lab 10 — Food Ordering Basket in PHP
 
 **Student Name:** Maksym Spizhovyi  
 **Student ID:** 300 362 869  
